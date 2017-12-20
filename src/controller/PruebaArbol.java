@@ -27,7 +27,7 @@ public class PruebaArbol {
 		
 		preOrden(root);
 		System.out.print("Promedio: - ");
-		System.out.print(calculateAverageNodos(arrayNodos));
+		System.out.print("AVERAGE de Nodos: "+calculateAverageNodos(arrayNodos));
 	}
 	
 	private static void preOrden(Nodo root){
@@ -49,7 +49,6 @@ public class PruebaArbol {
 			System.out.println("Cantidad de nodos: "+array.size());
 			System.out.println("Sumatoria de Nodos: "+ sum);	
 			average=sum/array.size();
-			System.out.println("AVERAGE de Nodos: "+average);
 		}	
 		return average;
 	}
